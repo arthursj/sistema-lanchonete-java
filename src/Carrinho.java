@@ -6,4 +6,8 @@ public class Carrinho {
     public Carrinho() {
         itens = new ArrayList<>();
     }
+
+    public void adicionarItem(Item item) {
+        itens.add(item);
+    }
 }
