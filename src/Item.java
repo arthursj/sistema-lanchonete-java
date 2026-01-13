@@ -22,4 +22,8 @@ public class Item {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+
+    public void apresentar() {
+        System.out.println("Nome do item: " + nome + ", Preço: R$ " + preco);
+    }
 }
