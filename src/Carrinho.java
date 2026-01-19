@@ -19,4 +19,12 @@ public class Carrinho {
             }
         }
     }
+
+    public void calcularPreco() {
+        double valor = 0;
+        for (int i = 0; i < itens.size(); i++) {
+            valor += itens.get(i).getPreco();
+        }
+        System.out.println("Total é R$: " + valor);
+    }
 }
