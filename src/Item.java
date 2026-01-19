@@ -1,10 +1,12 @@
 public class Item {
+    private int codigo;
     private String nome;
     private double preco;
 
-    public Item(String nome, double preco) {
+    public Item(String nome, double preco, int codigo) {
         this.nome = nome;
         this.preco = preco;
+        this.codigo = codigo;
     }
 
     public String getNome() {
@@ -23,7 +25,15 @@ public class Item {
         this.preco = preco;
     }
 
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
     public void apresentar() {
-        System.out.println("Nome do item: " + nome + ", Preço: R$ " + preco);
+        System.out.println("Nome do item: " + nome + ", Preço: R$ " + preco + ", Código do Item: " + codigo);
     }
 }
