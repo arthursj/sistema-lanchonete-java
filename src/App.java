@@ -14,6 +14,9 @@ public class App {
         c.adicionarItem(item3);
         c.adicionarItem(item4);
 
+        c.removerItem(4);
+        c.adicionarItem(item3);
+
         c.calcularPreco();
     }
 }
