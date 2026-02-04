@@ -1,5 +1,5 @@
 <h1 align="center">
-    MySQL with Docker (Docker puro)
+    Sistema Lanchonete (Java puro)
 </h1>
 <p align="center">
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
